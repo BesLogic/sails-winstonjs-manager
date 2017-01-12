@@ -1,0 +1,34 @@
+{
+    "name": "sails-winstonjs-manager",
+    "version": "1.0.0",
+    "description": "A sails hook that act has a manager for multiple winstonjs loggers",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BesLogic/sails-mysql-atomic.git"
+    },
+    "sails": {
+        "isHook": true,
+        "hookName": "winstonjsManager"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "winstonjs",
+        "winston",
+        "logging",
+        "sails",
+        "hook",
+        "sails-winstonjs-manager"
+    ],
+    "author": "Beslogic",
+    "license": "MIT",
+    "engines": {
+        "node": ">=6.3.0"
+    },
+    "dependencies": {
+        "sails": "~0.12.10",
+        "winston": "~2.3.0"
+    }
+}
